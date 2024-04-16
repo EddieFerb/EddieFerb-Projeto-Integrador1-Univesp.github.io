@@ -39,7 +39,7 @@ if(isset($_POST['submit']))
     $estado = $_POST['estado'];
     $endereco = $_POST['endereco'];
 
-    $mysqli_select_db($conexao, 'formulario-gustavo');
+    $mysqli_select_db($conexao, 'formulario');
 
 
     $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,email,telefone,sexo,data_nasc,cidade,estado,endereco) VALUES ('$nome','$email','$telefone','$sexo','$data_nasc','$cidade','$estado','$endereco')");

@@ -2,9 +2,9 @@
 
 $dbHost = 'localhost';
 $dbUsername = 'root';
-$dbPassword = 'paio1234';
+$dbPassword = '';
 $dbName = 'formulario-paio';
-$dbPort = 3307;
+$dbPort = 3306;
 
 
 $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName, $dbPort);
